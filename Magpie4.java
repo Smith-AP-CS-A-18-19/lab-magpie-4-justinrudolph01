@@ -77,7 +77,7 @@ public class Magpie4 {
 		}
 		int psn = findKeyword (statement, "I want to", 0);
 		String restOfStatement = statement.substring(psn + 9).trim();
-		return "Why do you want to " + restOfStatement + "?";
+		return "What would it mean to " + restOfStatement + "?";
 	}
 
 	private String transformIWantStatement(String statement) {
